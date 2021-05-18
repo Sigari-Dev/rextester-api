@@ -19,9 +19,9 @@ When executing a code using the library it will return RextesterResult object th
 
 ```python
 >>> from rextester import Rextester
->>> Rextester("python 3", "print('Hello World')", None).result
+>>> Rextester("python 3", "print('Hello World')").result
 Hello World
->>> Rextester("python 3", "print('Hello World')", None).stats
+>>> Rextester("python 3", "print('Hello World')").stats
 Absolute running time: 0.37 sec, cpu time: 0.05 sec, memory peak: 8 Mb, absolute service time: 0,52 sec
 ```
 
