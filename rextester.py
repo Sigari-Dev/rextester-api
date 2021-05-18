@@ -89,7 +89,6 @@ class Rextester:
 
         request = requests.post(self.URL, data=data)
         self.response = request.json()
-        print(self.response)
         self.result = self.response["Result"]
         self.warnings = self.response["Warnings"]
         self.errors = self.response["Errors"]
